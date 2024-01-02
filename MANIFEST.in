@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include citrusleaf *.css
+recursive-include citrusleaf *.csv
+recursive-include citrusleaf *.html
+recursive-include citrusleaf *.ico
+recursive-include citrusleaf *.js
+recursive-include citrusleaf *.json
+recursive-include citrusleaf *.md
+recursive-include citrusleaf *.png
+recursive-include citrusleaf *.py
+recursive-include citrusleaf *.svg
+recursive-include citrusleaf *.txt
+recursive-exclude citrusleaf *.pyc
