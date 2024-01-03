@@ -33,7 +33,7 @@ app_license = "MIT"
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
-
+doctype_js = {"Item" : "public/js/item.js"}
 # Home Pages
 # ----------
 
@@ -125,7 +125,11 @@ app_license = "MIT"
 #		"on_trash": "method"
 #	}
 # }
-
+doc_events = {
+    "Item":{
+        "validate": "citrusleaf.override.item.throwing_error"
+    }
+}
 # Scheduled Tasks
 # ---------------
 
